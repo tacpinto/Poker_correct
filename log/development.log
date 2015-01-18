@@ -1,0 +1,520 @@
+
+
+Started GET "/" for ::1 at 2015-01-17 19:35:11 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (17.8ms)
+Completed 200 OK in 108ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:35:18 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (4811.1ms)
+Completed 200 OK in 4825ms (Views: 4824.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:35:23 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:35:23 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:35:23 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:35:23 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:35:23 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:35:44 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (79.1ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:35:44 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:35:44 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:35:44 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:35:44 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:35:44 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:36:20 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (49.2ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:36:20 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:36:20 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:36:20 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:36:20 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:36:20 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:40:59 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (78.5ms)
+Completed 500 Internal Server Error in 91ms
+
+ActionView::Template::Error (undefined local variable or method `die1' for #<#<Class:0x540e940>:0x884e020>):
+    13: 	die2=rand(6)+1
+    14: %>
+    15: 
+    16: <img src="http://golearntocode.com/images/dice/<%= die1%>.png">
+    17: <img src="http://golearntocode.com/images/dice/<%= die2%>.png">
+    18: 
+    19: <%= die1 %>
+  app/views/poker/deal.html.erb:16:in `_app_views_poker_deal_html_erb__1072170930_71460360'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (96.6ms)
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:26 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (50.0ms)
+Completed 200 OK in 61ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:27 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:27 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:27 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:27 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:27 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:34 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (49.0ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:34 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:34 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:34 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:34 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:34 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:35 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (53.3ms)
+Completed 200 OK in 66ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:35 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:35 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:35 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:35 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:35 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:49 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (49.0ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:49 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:49 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:49 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:49 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:49 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:50 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (43.0ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:50 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (43.6ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:50 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:51 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (45.0ms)
+Completed 200 OK in 55ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:51 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:51 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:51 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:51 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:51 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:53 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (66.0ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:53 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:53 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:53 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:53 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:53 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:41:54 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (46.1ms)
+Completed 200 OK in 57ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:41:54 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:41:54 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:41:54 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:41:54 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:41:54 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:48:19 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (64.0ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined local variable or method `die1' for #<#<Class:0x540e940>:0x9235ce0>):
+    22: 	suit5=["clubs", "diamonds", "hearts", "spades"].sample
+    23: %>
+    24: 
+    25: <img src="http://golearntocode.com/images/dice/<%= die1%>.png">
+    26: <img src="http://golearntocode.com/images/dice/<%= die2%>.png">
+    27: 
+    28: <%= number1 %> <%= suit1 %>
+  app/views/poker/deal.html.erb:25:in `_app_views_poker_deal_html_erb__1072170930_76653756'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (76.0ms)
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:48:44 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (66.3ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (undefined local variable or method `die2' for #<#<Class:0x540e940>:0x99b0aa8>):
+    22: 	suit5=["clubs", "diamonds", "hearts", "spades"].sample
+    23: %>
+    24: 
+    25: <!-- <img src="http://golearntocode.com/images/dice/<%= die2%>.png">
+    26: <img src="http://golearntocode.com/images/dice/<%= die1%>.png">
+    27:  -->
+    28: <%= number1 %> <%= suit1 %>
+  app/views/poker/deal.html.erb:25:in `_app_views_poker_deal_html_erb__1072170930_80550504'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (68.1ms)
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:48:55 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (73.0ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (undefined local variable or method `die2' for #<#<Class:0x540e940>:0x897a1d0>):
+    22: 	suit5=["clubs", "diamonds", "hearts", "spades"].sample
+    23: %>
+    24: 
+    25: <!-- <img src="http://golearntocode.com/images/dice/<%= die2%>.png">
+    26: <img src="http://golearntocode.com/images/dice/<%= die1%>.png">
+    27:  -->
+    28: <%= number1 %> <%= suit1 %>
+  app/views/poker/deal.html.erb:25:in `_app_views_poker_deal_html_erb__1072170930_80550504'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (69.5ms)
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:49:39 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (70.0ms)
+Completed 500 Internal Server Error in 81ms
+
+ActionView::Template::Error (undefined local variable or method `die2' for #<#<Class:0x540e940>:0x6713dd8>):
+    22: 	suit5=["clubs", "diamonds", "hearts", "spades"].sample
+    23: %>
+    24: 
+    25: <!-- <img src="http://golearntocode.com/images/dice/<%= die2%>.png">
+    26: <img src="http://golearntocode.com/images/dice/<%= die1%>.png">
+    27:  -->
+    28: <%= number1 %> <%= suit1 %>
+  app/views/poker/deal.html.erb:25:in `_app_views_poker_deal_html_erb__1072170930_54037260'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (69.3ms)
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:50:04 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (47.0ms)
+Completed 200 OK in 58ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:50:04 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:50:04 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:50:04 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:50:04 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:50:04 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:52:56 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (48.6ms)
+Completed 200 OK in 59ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:52:56 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:52:56 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:52:56 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:52:56 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:52:56 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:53:49 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (50.1ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:53:49 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:53:49 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:53:49 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:53:49 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:53:49 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:55:01 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (47.3ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:55:01 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:55:01 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:55:01 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:55:01 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:55:01 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 19:55:25 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (48.0ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 19:55:25 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 19:55:25 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 19:55:25 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 19:55:25 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 19:55:25 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 20:03:08 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (50.1ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 20:03:08 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 20:03:08 -0600
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 20:03:08 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 20:03:08 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 20:03:08 -0600
+
+
+Started GET "/poker" for ::1 at 2015-01-17 20:03:09 -0600
+Processing by PokerController#deal as HTML
+  Rendered poker/deal.html.erb (46.0ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-17 20:03:09 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-17 20:03:09 -0600
+
+
+Started GET "/assets/application-76f42e84df6d0385ff369bbf167e2b5a.js?body=1" for ::1 at 2015-01-17 20:03:09 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-17 20:03:09 -0600
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-17 20:03:09 -0600
